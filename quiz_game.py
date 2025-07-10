@@ -15,12 +15,12 @@ quiz_data=[
     },
     {
         "question":"What is the chemical symbol of gold?",
-        "choices":["Go","Au","Ag","Gd"],
+        "choices":["Go","Ga","Ag","Au"],
         "answer":"Au"
     },
     {
         "question":"Which country is known as the 'Land of the Rising Sun?",
-        "choices":["China","Japan","Thialand","South Korea"],
+        "choices":["China","Thialand","Japan","South Korea"],
         "answer":"Japan"
     },
     {
@@ -69,5 +69,7 @@ for i in range(5):
     buttons.append(btn)
 
 update_question()
+
+root.geometry('600x500')
 
 root.mainloop()
